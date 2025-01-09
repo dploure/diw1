@@ -4,7 +4,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Pacifico&display=swap" rel="stylesheet">
         <style type="text/css">
-            .menu{
+            .menuLateral{
                 background-color: #76461B;
                 color:#F7D4B5;
                 text-align: center;
@@ -14,7 +14,15 @@
                 font-family: 'Pacifico';
                 font-size: 25px;
             }
-            :hover.menu{
+            .menu{
+                text-align: center;
+                background-color: #FFF1E5;
+                color: #76461B; 
+                margin: 0px; 
+                padding: 0px; 
+                border-radius: 10px;
+            }
+            :hover.menuLateral{
                 background-color: #F7D4B5;
                 color:#76461B
             }
@@ -36,6 +44,9 @@
             a{
                 text-decoration: none;
             }
+            :hover.imagen-enlace{
+                filter: contrast(2)
+            }
         </style>
         <title>Migas Amigas</title>
     </head>
@@ -49,27 +60,36 @@
                             <h1 style="font-family: Monsieur La Doulaise, serif; font-size:80px">Migas Amigas</h1>
                             <img src="../iconos/gorro-logo.png" alt="gorro" width="100px">
                             </div>
-                        <div style="margin-bottom:10px; text-align: right; margin-right:50px">
-                            <span style="font-style: italic; font-size: 20px">Endulzamos tu vida</span>
+                        <div style="display: flex; justify-content: space-between;">
+                            <span style="font-family: 'Pacifico'; margin-left: 20px;"><img class="imagen-enlace" width="25px" src="../iconos/portugal.png"><a href="index-portugues.html"> Portugués</a> - <img class="imagen-enlace" width="25px" src="../iconos/españa.png"></a> Español</span>
+                            <span style="font-style: italic; font-size: 20px; margin-right: 20px;">Endulzamos tu vida</span>
                         </div>
-                        <div>
-                            <p><img class="imagen-enlace" width="25px" src="../iconos/portugal.png"><a href="../index-portugues.html"> Portugués</a> - <img class="imagen-enlace" width="25px" src="../iconos/españa.png"></a> Español</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <div style="display:flex; width: 100%; justify-content: space-evenly; margin-top: 50px;">
+                            <a href="pan1.html"><span class="menu"><h3>Panaderia</h3><img class="imagen-enlace" src="../iconos/pan-circulo.png" alt="Pan" width="200px" /></span></a>
+                            <a href="bolleria1.html"><span class="menu"><h3>Pastelería - bollería</h3><img class="imagen-enlace" src="../iconos/bolleria-circulo.png" alt="Bollería" width="200px"/></span></a>
+                            <a href="empanadas1.html"><span class="menu"><h3>Empanadas</h3><img class="imagen-enlace" src="../iconos/empanada-circulo.png" alt="Empanada" width="200px"/></span></a>
+                            <a href="../index.html"><span class="menu"><h3>Volver al incio</h3></span><img src="../iconos/inicio.png" alt="inicio" width="200px"></a>
                         </div>
+                        <hr style="margin-top: 60px;"/>
                     </td>
                 </tr>
                 <tr>
                     <td style="width: 100%; display: flex;">
                         <div style="width: 20%; margin-top: 30px;">
-                            <a href="pan1.html"><p class="menu">Bolla de trigo</p></a>
-                            <a href="pan2.html"><p class="menu">Bolla integral</p></a>
-                            <a href="pan3.html"><p class="menu">Barra de trigo</p></a>
-                            <a href="pan4.html"><p class="menu">Pan de espelta</p></a>
-                            <a href="pan5.html"><p class="menu">Pan de picos</p></a>
-                            <a href="pan6.html"><p class="menu">Pan brioche</p></a>
-                            <a href="pan7.html"><p class="menu">Pan multicereal </p></a>
-                            <a href="pan8.html"><p class="menu">Pan de nueces y pasas</p></a>
-                            <a href="pan9.html"><p class="menu">Bollo preñado</p></a>
-                            <a href="pan10.html"><p class="menu">Pan al curry</p></a>
+                            <a href="pan1.html"><p class="menuLateral">Bolla de trigo</p></a>
+                            <a href="pan2.html"><p class="menuLateral">Bolla integral</p></a>
+                            <a href="pan3.html"><p class="menuLateral">Barra de trigo</p></a>
+                            <a href="pan4.html"><p class="menuLateral">Pan de espelta</p></a>
+                            <a href="pan5.html"><p class="menuLateral">Pan de picos</p></a>
+                            <a href="pan6.html"><p class="menuLateral">Pan brioche</p></a>
+                            <a href="pan7.html"><p class="menuLateral">Pan multicereal </p></a>
+                            <a href="pan8.html"><p class="menuLateral">Pan de nueces y pasas</p></a>
+                            <a href="pan9.html"><p class="menuLateral">Bollo preñado</p></a>
+                            <a href="pan10.html"><p class="menuLateral">Pan al curry</p></a>
                         </div>
                         <div style="width: 80%; margin: 20px; padding: 30px;">
                             <p class="titulo">Bollo preñado</p>
